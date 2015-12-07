@@ -8,7 +8,7 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
 [[[<#mock#> stub] andDo:^(NSInvocation *invocation) {
-    __unsafe_unretained <#returntype#> (^completionBlock)(<#block parameters#>));
+    __unsafe_unretained <#returntype#> (^completionBlock)(<#block parameters#>);
     [invocation getArgument:&completionBlock atIndex:<#block parameter index#>];
     completionBlock(<#block arguments#>);
 }] <#method name#>:OCMOCK_ANY];
